@@ -1,0 +1,226 @@
+html {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+  color: #fff;
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  text-decoration: none;
+  text-align: center;
+}
+
+h3 {
+  color: #7904DD;
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  text-decoration: none;
+}
+
+p {
+  color: #9A9A9A;
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+a {
+  color: #7904DD;
+  font-family: "HelveticaNeue-thin", helvetica, sans-serif;
+  text-decoration: none;
+  transition: All .15s ease-in-out;
+}
+
+.sign {
+  color: #7904DD;
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+nav a:hover {
+  color: #C1A3DB;
+}
+
+.button a:hover {
+  background-color: #C1A3DB;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.signup {
+  border-radius: 3px;
+  color: white;
+  background-color: #B660FF;
+}
+
+.signup:hover {
+  transition: All .15s ease-in-out;
+  padding: 10px;
+}
+
+.signup a{
+  color: white;
+  text-decoration: none;
+}
+
+.section2 {
+  background-color: #F0E4F0;
+}
+
+.arttitle {
+  color: #000;
+}
+
+footer {
+  border-top: 1px solid #95989A;
+}
+
+header {
+  border-bottom: 1px solid #95989A;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.wrapper p {
+  color: #fff;
+  font-style: italic;
+  font-family: "HelveticaNeueultralight", "HelveticaNeue-Ultralight", "Helvetica Neue Ultra Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+.wrapper h2 {
+  font-family: "HelveticaNeueultralight", "HelveticaNeue-Ultralight", "Helvetica Neue Ultra Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+select {
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+input {
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+.text,
+.numbertext {
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+fieldset {
+  border: none;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+    max-height: 50%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #7904DD;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+th {
+  border: 1px solid #fff;
+  height: 4em;
+  max-width: 6em;
+  background-color: #A994C0;
+  color: #fff;
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+td {
+  border: 1px solid #fff;
+  height: 4em;
+  max-width: 6em;
+  background-color: #F0E4F0;
+  color: #7904DD;
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+table {
+  max-width: 35em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.statement {
+  width: 23em;
+  margin-left: auto;
+  margin-right: auto;
+}

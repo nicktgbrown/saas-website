@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Gallery</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="shortcut icon" href="images/8bitify-logo.ico"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="grid gutter-1-2 center-text push-1-2">
+        <div class="unit unit-xs-centered unit-s-centered xs-1 s-1 m-1 l-1-6 xl-1-6 gutter-1-2 push-0 pad-t-1-2">
+            <i class="icon i-32 logo">
+              <img class="img-flex" src="images/8bitify-logo.png" alt="">
+            </i>
+            <h1 class="tera push-0">bitify</h1>
+        </div>
+        <div class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t">
+          <a href="gallery.html">Gallery</a>
+        </div>
+        <div class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t">
+          <a href="tour.html">Features</a>
+        </div>
+        <div class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t">
+          <a href="pricing.html">Pricing</a>
+        </div>
+        <div class="unit unit-xs-hidden unit-s-hidden m-1-5 l-1-6 xl-1-6 gutter-1-4 push-0 button pad-t">
+          <a class="signup island-1-4 gutter-1-2" href="sign-up.html">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="pad-b text-center button">
+      <h3 class="yotta pad-t">Featured Works</h3>
+      <p class="peta pad-t-1-2 push-2 text-center">Enjoy some unique works created by members of our community!</p>
+      <a class="signup island-1-4 gutter-1-2" href="pricing.html">Start creating!</a>
+    </div>
+    <div class="section2 pad-b">
+      <div class="slideshow-container pad-t">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="images/art1.png" style="width:100%">
+          <div class="text push">Monsterz</div>
+          <div class="text italic micro">by Skudfisher</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="images/art2.png" style="width:100%">
+          <div class="text push">Cthulhu</div>
+          <div class="text italic micro">by Gwendal Uguen</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="images/art3.png" style="width:100%">
+          <div class="text push">Ryder</div>
+          <div class="text italic micro">by Topher McCulloch</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="images/art4.png" style="width:100%">
+          <div class="text push">Ecto 1</div>
+          <div class="text italic micro">by Gwendal Uguen</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="images/little-robot.jpg" style="width:100%">
+          <div class="text push">Lil Bot</div>
+          <div class="text italic micro">by EJ Hassenfratz</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="images/alien.jpg" style="width:100%">
+          <div class="text push">Get away from her, you b%#&$!</div>
+          <div class="text italic micro">by Gwendal Uguen</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+    </div>
+  <script>
+      var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
+  </main>
+  <footer class="text-center push-1-2 pad-t-1-2">
+    <i class="icon i-32">
+      <a href="index.html">
+        <img class="img-flex" src="images/8bitify-logo.png" alt="">
+      </a>
+    </i>
+  </footer>
+</body>
+<html>
