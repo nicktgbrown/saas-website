@@ -79,6 +79,28 @@ nav a:hover {
   text-decoration: none;
 }
 
+button {
+  text-decoration: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #B660FF;
+  border: 0;
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight:300;
+  font-stretch:normal;
+}
+
+button:hover {
+  transition: all .15s ease-in-out;
+  padding: 10px;
+  background-color: #C1A3DB;
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
 .section2 {
   background-color: #F0E4F0;
 }
@@ -219,6 +241,14 @@ th {
   background-color: #A994C0;
   color: #fff;
   font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+.corner {
+  color: #A994C0;
+}
+
+.free {
+  color: #F0E4F0;
 }
 
 td {
