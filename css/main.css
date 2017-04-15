@@ -6,9 +6,15 @@ html {
   font-family: 'Press Start 2P', cursive;
 }
 
+.grey {
+  color: #9A9A9A;
+}
+
 h1 {
   color: #fff;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight:300;
+  font-stretch:normal;
   text-decoration: none;
   text-align: center;
 }
@@ -39,7 +45,7 @@ a {
   color: #7904DD;
   font-family: "HelveticaNeue-thin", helvetica, sans-serif;
   text-decoration: none;
-  transition: All .15s ease-in-out;
+  transition: all .15s ease-in-out;
 }
 
 .sign {
@@ -64,7 +70,7 @@ nav a:hover {
 }
 
 .signup:hover {
-  transition: All .15s ease-in-out;
+  transition: all .15s ease-in-out;
   padding: 10px;
 }
 
