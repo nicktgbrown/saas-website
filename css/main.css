@@ -1,64 +1,67 @@
 html {
-  font-family: Georgia, serif;
+  font-family: HelveticaNeuethin, HelveticaNeue-Thin, "Helvetica Neue Thin", HelveticaNeue, "Helvetica Neue", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
 
 .h {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 .grey {
-  color: #9A9A9A;
+  color: #9a9a9a;
 }
 
 h1 {
   color: #fff;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-  font-weight:300;
-  font-stretch:normal;
+  font-weight: 300;
+  font-stretch: normal;
   text-decoration: none;
   text-align: center;
 }
 
 h2 {
   color: #fff;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  font-weight: 300;
+  font-stretch: normal;
   text-decoration: none;
   text-align: center;
 }
 
 h3 {
-  color: #7904DD;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  color: #7904dd;
+  font-weight: 300;
+  font-stretch: normal;
   text-decoration: none;
 }
 
 .purple {
-  color: #7904DD;
+  color: #7904dd;
 }
 
 p {
-  color: #9A9A9A;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  color: #9a9a9a;
+  font-weight: 300;
+  font-stretch: normal;
 }
 
 a {
-  color: #7904DD;
-  font-family: "HelveticaNeue-thin", helvetica, sans-serif;
+  color: #7904dd;
+  font-family: HelveticaNeue-thin, helvetica, sans-serif;
   text-decoration: none;
   transition: all .15s ease-in-out;
 }
 
 .sign {
-  color: #7904DD;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  color: #7904dd;
+  font-weight: 300;
+  font-stretch: normal;
 }
 
 nav a:hover {
-  color: #C1A3DB;
+  color: #c1a3db;
 }
 
 .button a:hover {
-  background-color: #C1A3DB;
+  background-color: #c1a3db;
   color: #fff;
   transform: scale(1.1);
 }
@@ -66,7 +69,7 @@ nav a:hover {
 .signup {
   border-radius: 3px;
   color: white;
-  background-color: #B660FF;
+  background-color: #b660ff;
 }
 
 .signup:hover {
@@ -74,7 +77,7 @@ nav a:hover {
   padding: 10px;
 }
 
-.signup a{
+.signup a {
   color: white;
   text-decoration: none;
 }
@@ -83,26 +86,25 @@ button {
   text-decoration: none;
   border-radius: 3px;
   color: white;
-  background-color: #B660FF;
+  background-color: #b660ff;
   border: 0;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-  font-weight:300;
-  font-stretch:normal;
+  font-weight: 300;
+  font-stretch: normal;
 }
 
 button:hover {
   transition: all .15s ease-in-out;
   padding: 10px;
-  background-color: #C1A3DB;
+  background-color: #c1a3db;
 }
 
-button a{
+button a {
   color: white;
   text-decoration: none;
 }
 
 .section2 {
-  background-color: #F0E4F0;
+  background-color: #f0e4f0;
 }
 
 .arttitle {
@@ -110,45 +112,51 @@ button a{
 }
 
 footer {
-  border-top: 1px solid #95989A;
+  border-top: 1px solid #95989a;
 }
 
 header {
-  border-bottom: 1px solid #95989A;
+  border-bottom: 1px solid #95989a;
 }
 
 .logo {
   margin: 0 auto;
 }
 
+.wrapper {
+  font-family: HelveticaNeueultralight, HelveticaNeue-Ultralight, "Helvetica Neue Ultra Light", HelveticaNeue, "Helvetica Neue", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+  font-weight: 300;
+}
+
 .wrapper p {
   color: #fff;
   font-style: italic;
-  font-family: "HelveticaNeueultralight", "HelveticaNeue-Ultralight", "Helvetica Neue Ultra Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  font-stretch: normal;
 }
 
 .wrapper h2 {
-  font-family: "HelveticaNeueultralight", "HelveticaNeue-Ultralight", "Helvetica Neue Ultra Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  font-stretch: normal;
 }
 
 select {
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  font-weight: 300;
+  font-stretch: normal;
 }
 
 input {
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  font-weight: 300;
+  font-stretch: normal;
 }
 
 .text,
 .numbertext {
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  font-weight: 300;
+  font-stretch: normal;
 }
 
 fieldset {
   border: none;
 }
-
-* {box-sizing:border-box }
 
 .slideshow-container {
   max-width: 800px;
@@ -157,8 +165,8 @@ fieldset {
 }
 
 .mySlides {
-    display: none;
-    max-height: 50%;
+  display: none;
+  max-height: 50%;
 }
 
 .prev, .next {
@@ -171,7 +179,7 @@ fieldset {
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: .6s ease;
   border-radius: 0 3px 3px 0;
 }
 
@@ -181,7 +189,7 @@ fieldset {
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 .text {
@@ -195,7 +203,7 @@ fieldset {
 }
 
 .numbertext {
-  color: #7904DD;
+  color: #7904dd;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -203,14 +211,14 @@ fieldset {
 }
 
 .dot {
-  cursor:pointer;
+  cursor: pointer;
   height: 13px;
   width: 13px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color .6s ease;
 }
 
 .active, .dot:hover {
@@ -225,39 +233,47 @@ fieldset {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4 }
-  to {opacity: 1 }
+
+  from { opacity: .4; }
+
+  to { opacity: 1; }
+
 }
 
 @keyframes fade {
-  from {opacity: .4 }
-  to {opacity: 1 }
+
+  from { opacity: .4; }
+
+  to { opacity: 1; }
+
 }
 
 th {
   border: 1px solid #fff;
   height: 4em;
   max-width: 6em;
-  background-color: #A994C0;
+  background-color: #a994c0;
   color: #fff;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  font-weight: 300;
+  font-stretch: normal;
 }
 
 .corner {
-  color: #A994C0;
+  color: #a994c0;
 }
 
 .free {
-  color: #F0E4F0;
+  color: #f0e4f0;
 }
 
 td {
   border: 1px solid #fff;
   height: 4em;
   max-width: 6em;
-  background-color: #F0E4F0;
-  color: #7904DD;
-  font-family: "HelveticaNeuethin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+  background-color: #f0e4f0;
+  color: #7904dd;
+  font-weight: 300;
+  font-stretch: normal;
 }
 
 table {
