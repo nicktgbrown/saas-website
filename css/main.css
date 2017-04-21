@@ -10,6 +10,10 @@ html {
   color: #9a9a9a;
 }
 
+.black {
+  color: #000;
+}
+
 h1 {
   color: #fff;
   font-weight: 300;
