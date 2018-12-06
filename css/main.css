@@ -1,5 +1,5 @@
 html {
-  font-family: HelveticaNeuethin, HelveticaNeue-Thin, "Helvetica Neue Thin", HelveticaNeue, "Helvetica Neue", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .h {
@@ -17,7 +17,6 @@ html {
 h1 {
   color: #fff;
   font-weight: 300;
-  font-stretch: normal;
   text-decoration: none;
   text-align: center;
 }
@@ -48,63 +47,53 @@ p {
 }
 
 a {
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  color: #7904dd;
+}
+
+.nav-a {
   color: #7904dd;
   font-family: HelveticaNeue-thin, helvetica, sans-serif;
   text-decoration: none;
-  transition: all .15s ease-in-out;
 }
 
-.sign {
-  color: #7904dd;
-  font-weight: 300;
-  font-stretch: normal;
+.home-icon {
+  max-width: 80%;
+  margin: auto;
+}
+
+.review-icon {
+  max-width: 50%;
+}
+
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-size: 200vh;
+  background-position: center;
+  min-height: 70vh;
+  min-width: 100vh;
 }
 
 nav a:hover {
   color: #c1a3db;
 }
 
-.button a:hover {
-  background-color: #c1a3db;
+.button {
+  text-decoration: none;
+  border-radius: 3px;
   color: #fff;
-  transform: scale(1.1);
-}
-
-.signup {
-  border-radius: 3px;
-  color: white;
   background-color: #b660ff;
+  font-weight: 400;
+  border: 2px solid #b660ff;
+  display: block;
+  display: inline-block;
 }
 
-.signup:hover {
-  transition: all .15s ease-in-out;
-  padding: 10px;
-}
-
-.signup a {
-  color: white;
-  text-decoration: none;
-}
-
-button {
-  text-decoration: none;
-  border-radius: 3px;
-  color: white;
-  background-color: #b660ff;
-  border: 0;
-  font-weight: 300;
-  font-stretch: normal;
-}
-
-button:hover {
-  transition: all .15s ease-in-out;
-  padding: 10px;
-  background-color: #c1a3db;
-}
-
-button a {
-  color: white;
-  text-decoration: none;
+.button:hover {
+  color: #b660ff;
+  background-color: transparent;
+  border: 2px solid #b660ff;
 }
 
 .section2 {
