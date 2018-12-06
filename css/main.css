@@ -3,7 +3,9 @@ html {
 }
 
 .h {
-  font-family: "Press Start 2P", cursive;
+  font-family: 'Quicksand', sans-serif;
+  color: #000;
+  font-weight: 500;
 }
 
 .grey {
@@ -125,6 +127,14 @@ header {
   color: #fff;
   font-style: italic;
   font-stretch: normal;
+}
+
+.thanks {
+  min-height: 70vh;
+}
+
+.thanks-phrase {
+  padding-top: 20vh;
 }
 
 .wrapper h2 {

@@ -2,13 +2,14 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Gallery</title>
+  <title>8-bitifier</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
   <link rel="shortcut icon" href="images/8bitify-logo.ico">
 </head>
 <body>
@@ -23,27 +24,30 @@
             <div class="tera push-0 h">bitify</div>
           </a>
         </li>
-        <li class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t">
+        <li class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t nav-a">
           <a href="index.html">Home</a>
         </li>
-        <li class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t">
+        <li class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t nav-a">
           <a href="gallery.html">Gallery</a>
         </li>
-        <li class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t">
+        <li class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t nav-a">
           <a href="tour.html">Features</a>
         </li>
-        <li class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t">
+        <li class="unit xs-1-4 s-1-4 m-1-5 l-1-6 xl-1-6 gutter-1-2 mega push-0 pad-t nav-a">
           <a href="pricing.html">Pricing</a>
         </li>
-        <li class="unit unit-xs-hidden unit-s-hidden m-1-5 l-1-6 xl-1-6 gutter-1-4 push-0 button pad-t">
-          <a class="signup island-1-4 gutter-1-2" href="sign-up.html">Sign Up</a>
+        <li class="unit unit-xs-hidden unit-s-hidden m-1-5 l-1-6 xl-1-6 gutter-1-4 push-0 pad-t">
+          <div>
+            <a class="button island-1-4 gutter-1-2" href="sign-up.html">Sign Up</a>
+          </div>
         </li>
       </ul>
     </nav>
   </header>
   <main>
-    <div class="pad-b text-center button">
-      <h3 class="yotta pad-t">Featured Works</h3>
+    <div class="pad-b text-center">
+      <h3 class="yotta pad-t-2 push-1-2">Featured Works</h3>
+      <p class="peta push-1-2 text-center">Enjoy some unique works created by members of our community!</p>
     </div>
     <div class="section2 pad-b">
       <div class="slideshow-container pad-t">
@@ -96,38 +100,9 @@
         <span class="dot" onclick="currentSlide(6)"></span>
       </div>
     </div>
-  <script>
-      var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-    }
-  </script>
-  <div class="text-center push button pad-t">
-    <p class="peta pad-t-1-2 push-2 text-center">Enjoy some unique works created by members of our community!</p>
-    <a class="signup island-1-4 gutter-1-2" href="pricing.html">Start Creating!</a>
-  </div>
+    <div class="text-center push pad-t">
+      <a class="signup island-1-4 gutter-1-2 button" href="pricing.html">Start Creating!</a>
+    </div>
   </main>
   <footer class="text-center push-1-2 pad-t-1-2">
     <i class="icon i-32">
@@ -137,4 +112,32 @@
     </i>
   </footer>
 </body>
+<script>
+    var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+</script>
 </html>
