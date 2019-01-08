@@ -73,8 +73,7 @@ a {
   background-image: url(../images/banner.jpg);
   background-size: 250vh;
   background-position: center;
-  min-height: 88vh;
-  min-width: 100vh;
+  min-height: 90vh;
 }
 
 nav a:hover {
@@ -286,7 +285,6 @@ table {
 }
 
 .statement {
-  width: 23em;
   margin-left: auto;
   margin-right: auto;
 }
