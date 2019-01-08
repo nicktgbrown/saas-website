@@ -71,9 +71,9 @@ a {
 
 .banner {
   background-image: url(../images/banner.jpg);
-  background-size: 200vh;
+  background-size: 250vh;
   background-position: center;
-  min-height: 70vh;
+  min-height: 88vh;
   min-width: 100vh;
 }
 
@@ -289,4 +289,16 @@ table {
   width: 23em;
   margin-left: auto;
   margin-right: auto;
+}
+
+@keyframes arrow-float {
+  0%, 20%, 40% {transform: translateY(0);}
+  10%, 30% {transform: translateY(-.4em);}
+}
+
+.arrow-float {
+  animation-name: arrow-float;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  height: 3em;
 }
